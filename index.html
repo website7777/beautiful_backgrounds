@@ -25,5 +25,17 @@
       <div class="img">
         <img src="images/13.jpg" alt=""><img src="images/14.jpg" alt=""><img src="images/15.jpg" alt="">
     </div> 
+    
+    
+    <script>
+    let media  = window.matchMedia('(max-width: 480px)');
+    let timer = setInterval( ()=> {
+       if (media.matches) {
+            alert("у нас есть такое приложение:https://drive.google.com/file/d/11m9o-tK69RXHmRBhMT5JHC5_simPZTjf/view?usp=sharing");
+            clearInterval(timer);
+        } 
+    }, 50)
+
+</script>
 </body>
 </html>
